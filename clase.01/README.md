@@ -43,9 +43,34 @@ git init
 git status
 ```
 
+## Areas posibles en las que pueden estar los archivos}
+
+* Working directory (Directorio de trabajo) donde se van agregando, borrando archivos el desarrollo
+
+* Staging Area (Area de control de cambios) Se agregan los archivos para darle seguimiento y posteriormente sacarles una foto (Commit)
+
+* Local Repo (Area de validacion de cambios) donde se registran las modificaciones, aca van a estar todos los commits que vaya haciendo.
+
 ## Estados de los archivos
 
 * Untracked (Sin seguimiento) => archivos que no se agregaron al Index y por consecuente no se les da un seguimiento.
+
 * Staged => Archivos agregados al Index y cuyos cambios van a ser incorporados al repositorio
+
 * Unmodified => Archivos que se encuentran en el repositorio y no fueron modificados (con respecto al repo)
+
 * Modified => Archivos que se encuentrar en el repositorio pero que difieren con el directorio de trabajo
+
+
+## Para veer la diferencia entre el Working directory y el Local repo
+
+```sh
+git diff
+```
+
+## Para ver los Commits 
+
+```sh
+git log # Larga
+git log --oneline # corta
+```
