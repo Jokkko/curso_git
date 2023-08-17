@@ -17,3 +17,6 @@ git add -p git add --patch
 ```sh 
 git clone <url-del-repo> git clone https://github.com/twbs/bootstrap.git . #punto le digo no crees una carpeta, hacelo en esta
 ```
+
+# .gitignore: Me permite descargar archivos que no quiero que formen parte del repo
+Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del directorio a ignorar
