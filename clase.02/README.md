@@ -15,7 +15,8 @@ git add -p git add --patch
 # CLONE : me permite clonar un repositorio completo, con los commits
 
 ```sh 
-git clone <url-del-repo> git clone https://github.com/twbs/bootstrap.git . #punto le digo no crees una carpeta, hacelo en esta
+git clone <url-del-repo> 
+git clone https://github.com/twbs/bootstrap.git . #punto le digo no crees una carpeta, hacelo en esta
 ```
 
 # .gitignore: Me permite descargar archivos que no quiero que formen parte del repo
@@ -26,3 +27,15 @@ Arreglar el mensaje del commit o agregar archivos o partes de un archivo que me 
 
 ## gitkeep: me permite subir carpetas vacias
 Git no versiona carpetas, si quisiera subir una carpeta tengo que crearle dentro un archivo llamado. **.gitkeep**
+
+## REMOTE: me permite agregar la url del repo remoto en el local para subir los cambios
+
+```sh 
+git remote add <url-del-repo>
+```
+
+> Visualizar donde esta el remoto de mi repo
+
+```sh 
+git remote -v
+```
