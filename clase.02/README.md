@@ -20,3 +20,5 @@ git clone <url-del-repo> git clone https://github.com/twbs/bootstrap.git . #punt
 
 # .gitignore: Me permite descargar archivos que no quiero que formen parte del repo
 Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del directorio a ignorar
+
+# Amend: me permite enmendar un commit
