@@ -6,11 +6,11 @@
 git add -p git add --patch
 ```
 
-* y: agregar el hunk: (tocito de codigo) al stage
-* s: dividir el hunk en varios (automatico)
-* n: descartar hunk
-* e: editar manualmente el hunk (comentar la linea que no quiero pasar a stage)
-* ?: ayuda
+* y: agregar el hunk: (tocito de codigo) al stage.
+* s: dividir el hunk en varios (automatico).
+* n: descartar hunk.
+* e: editar manualmente el hunk (comentar la linea que no quiero pasar a stage).
+* ?: ayuda.
 
 # CLONE : me permite clonar un repositorio completo, con los commits
 
@@ -19,7 +19,10 @@ git clone <url-del-repo> git clone https://github.com/twbs/bootstrap.git . #punt
 ```
 
 # .gitignore: Me permite descargar archivos que no quiero que formen parte del repo
-Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del directorio a ignorar
+Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del directorio a ignorar.
 
 # Amend: me permite enmendar un commit
 Arreglar el mensaje del commit o agregar archivos o partes de un archivo que me quedaon fuera del commit.
+
+## gitkeep: me permite subir carpetas vacias
+Git no versiona carpetas, si quisiera subir una carpeta tengo que crearle dentro un archivo llamado. **.gitkeep**
