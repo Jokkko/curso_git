@@ -24,6 +24,9 @@ Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del
 
 # Amend: me permite enmendar un commit
 Arreglar el mensaje del commit o agregar archivos o partes de un archivo que me quedaon fuera del commit.
+```sh 
+git amend -m "mensaje"
+```
 
 ## gitkeep: me permite subir carpetas vacias
 Git no versiona carpetas, si quisiera subir una carpeta tengo que crearle dentro un archivo llamado. **.gitkeep**
@@ -38,4 +41,21 @@ git remote add <url-del-repo>
 
 ```sh 
 git remote -v
+```
+
+# crear una branch
+
+```sh
+git branch <nombre-branch>
+```
+## listar ramas
+
+```sh 
+git branch
+```
+
+## moverme a una rama
+
+```sh 
+git switch <nombre-branch>
 ```
