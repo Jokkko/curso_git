@@ -22,3 +22,4 @@ git clone <url-del-repo> git clone https://github.com/twbs/bootstrap.git . #punt
 Para eso tengo que crear un archivo llamado .gitignore y colocarle el nombre del directorio a ignorar
 
 # Amend: me permite enmendar un commit
+Arreglar el mensaje del commit o agregar archivos o partes de un archivo que me quedaon fuera del commit.
