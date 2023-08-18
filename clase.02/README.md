@@ -59,3 +59,10 @@ git branch
 ```sh 
 git switch <nombre-branch>
 ```
+
+## borrar una rama que ya no se va a utilizar
+
+```sh 
+git branch -d <nombre-de-la-branch>
+git branch -D <nombre-de-la-branch> # Mandale, borrala estoy seguro
+```
