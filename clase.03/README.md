@@ -56,3 +56,45 @@ git stash apply stash@{5} # desapila el quinto de la pila
 ```sh
 git stash branch <nombre-de-la-rama>
 ```
+
+## Creo una rama y me muevo a ella
+```sh
+git switch -c <nombre-rama>
+```
+
+## Subir una rama al remoto
+```sh
+git push origin <nombre-de-la-rama>
+```
+
+## Para listar las ramas del remoto
+```sh
+git branch -r 
+```
+
+## Para listar TODAS ramas (Locales y remotas)
+```sh
+git branch -a
+```
+
+## FETCH
+Es traerme la metadata al remoto local. actualizo la carpeta (.git)
+```sh
+git fetch
+```
+
+## GIT RESET
+
+### RESET SOFT
+```sh
+git reset --soft <hash>
+```
+### RESET MIXED
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+### RESET HARD
+```sh
+git reset --hard <hash>
+```
